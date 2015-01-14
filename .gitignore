@@ -181,3 +181,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+#Joan: ignorar los backups de gedit
+*~
+*.userprefs
