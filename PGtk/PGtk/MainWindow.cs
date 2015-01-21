@@ -20,7 +20,7 @@ public partial class MainWindow: Gtk.Window
 		if (entryNombre.Text == "Joan") {
 			texto.Buffer.InsertAtCursor ("Que crack "+entryNombre.Text+" ! ");
 		} else if (entryNombre.Text == "Ruben") {
-			texto.Buffer.Text = "Hola "+entryNombre.Text;
+			texto.Buffer.Text = "Hola "+entryNombre.Text+" ";
 		} else {
 			texto.Buffer.Text = "";
 		}
