@@ -20,9 +20,9 @@ public partial class MainWindow
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		// Container child MainWindow.Gtk.Container+ContainerChild
 		this.vBox = new global::Gtk.VBox ();
-		this.vBox.Name = "vbox2";
+		this.vBox.Name = "vBox";
 		this.vBox.Spacing = 6;
-		// Container child vbox2.Gtk.Box+BoxChild
+		// Container child vBox.Gtk.Box+BoxChild
 		this.labelSaludo = new global::Gtk.Label ();
 		this.labelSaludo.Name = "labelSaludo";
 		this.labelSaludo.LabelProp = global::Mono.Unix.Catalog.GetString ("Hola Mundo");
@@ -31,7 +31,7 @@ public partial class MainWindow
 		w1.Position = 0;
 		w1.Expand = false;
 		w1.Fill = false;
-		// Container child vbox2.Gtk.Box+BoxChild
+		// Container child vBox.Gtk.Box+BoxChild
 		this.hbox2 = new global::Gtk.HBox ();
 		this.hbox2.Name = "hbox2";
 		this.hbox2.Spacing = 6;
@@ -71,7 +71,7 @@ public partial class MainWindow
 		w5.Position = 1;
 		w5.Expand = false;
 		w5.Fill = false;
-		// Container child vbox2.Gtk.Box+BoxChild
+		// Container child vBox.Gtk.Box+BoxChild
 		this.GtkScrolledWindow = new global::Gtk.ScrolledWindow ();
 		this.GtkScrolledWindow.Name = "GtkScrolledWindow";
 		this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));

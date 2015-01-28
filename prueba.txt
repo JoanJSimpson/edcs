@@ -1,0 +1,13 @@
+PRÁCTICA 3.7
+
+DHCP, Cabecera IP, VLAN's, IPv6
+
+1. Ejecuta el comando ifconfig y route en Linux y contesta las siguientes preguntas:
+a) ¿Cuál es la dirección física del adaptador de red?
+	direcciónHW 8*:38:*5:3*:*2:b*
+b) ¿Cuál es la dirección IP y máscara del adaptador de red?
+	 Direc. Inet:192.168.1.56	Másc:255.255.255.0 
+c) ¿Cuál es la dirección del gateway y para que sirve?
+	Gateway:192.168.1.1 es la dirección del router, para poder acceder a otras redes.
+d) ¿Cuál es la dirección de tu red y de broadcast y a que tipo/clase pertenece?
+	Dir.Red: 192.168.1.0 Broadcast: 192.168.1.255  Clase C
