@@ -22,10 +22,12 @@ public partial class MainWindow: Gtk.Window
 		texto.Buffer.InsertAtCursor ("Hola, Este es el ejercicio!\n");
 
 		if (entryPrimero.Text == "" || entrySegundo.Text == "") {
+			texto.Buffer.Text = "";
 			texto.Buffer.InsertAtCursor ("¡¡¡¡Error!!!!\nNo puede estar vacio ningún campo\n");
 		//} else if (entrySegundo.Text == "") {
 		//	texto.Buffer.InsertAtCursor ("La segunda palabra no puede estar vacia");
 		} else {
+			texto.Buffer.Text = "";
 			texto.Buffer.InsertAtCursor (entryPrimero.Text+" "+entrySegundo.Text+"\n");
 		}
 
